@@ -1,1 +1,66 @@
 // Specific CSS for your home-page
+.searchBG {
+    background-image: linear-gradient(to bottom right, rgba(136, 0, 0, 0.2) 10%, rgb(0, 63, 156) 132%), url(lawfirm1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+    .text-titles {
+	    top: 150px;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        height: 100%;
+    	p {
+		    color: white;
+		    max-width: 320px;
+		    text-align: center;
+		    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2), -1px -1px 10px rgba(0, 0, 0, 0.3);
+    	}
+    }
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: medium;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 71px;
+    color: white;
+    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2), -1px -1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.firms-container {
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .firm-card {
+        background: ghostwhite;
+        width: 400px;
+        margin: 13px;
+
+        ul {
+            padding: 10px;
+        }
+
+        .partners-list {
+            max-height: 100px;
+            overflow: auto;
+        }
+    }
+}
+
+li {
+    list-style: none;
+}

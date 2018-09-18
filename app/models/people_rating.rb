@@ -1,0 +1,2 @@
+class PeopleRating < ApplicationRecord
+end

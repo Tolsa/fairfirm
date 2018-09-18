@@ -1,0 +1,7 @@
+2018-09-18 15:31:31.903 CEST [33376] LOG:  listening on IPv6 address "::1", port 5432
+2018-09-18 15:31:31.903 CEST [33376] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-09-18 15:31:31.906 CEST [33376] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-09-18 15:31:31.919 CEST [33377] LOG:  database system was shut down at 2018-09-18 15:31:20 CEST
+2018-09-18 15:31:31.922 CEST [33376] LOG:  database system is ready to accept connections
+2018-09-18 15:31:51.459 CEST [33421] FATAL:  database "fairfirm_development" does not exist
+2018-09-18 15:33:30.006 CEST [33517] FATAL:  database "nicolasamiel" does not exist

@@ -1,0 +1,2 @@
+class ManagementRating < ApplicationRecord
+end
