@@ -1,6 +1,10 @@
 // Specific CSS for your home-page
 .searchBG {
-    background-image: linear-gradient(to bottom right, rgba(136, 0, 0, 0.2) 10%, rgb(0, 63, 156) 132%), url(lawfirm1.jpg);
+    background-image: linear-gradient(to bottom right, 
+        rgba(138, 35, 135, 1), 
+        rgba(233, 64, 87, 0.8), 
+        rgba(242, 113, 33, 0.8)), 
+        url(lawfirm1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
