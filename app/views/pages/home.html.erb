@@ -9,9 +9,12 @@
 		<% Firm.all.each do |firm| %>		
 			<div class="firm-card">
 				<ul>
+					
 					<li class="firm-title"><%= firm.name %></li>
-					<li><i class="fas fa-globe"></i> <%= firm.location %></li>
-					<li><i class="fas fa-users"></i> <%= firm.employees %></li>
+					<div class="first-group-ul">	
+						<li><i class="fas fa-globe"></i> <%= firm.location %></li>	
+						<li><i class="fas fa-users"></i> <%= firm.employees %></li>
+					</div>
 					<li class="partners-list">
 						<% partners = firm.partners %>
 						<% p_string = partners.to_s.gsub("[","").gsub("]","").gsub('"','') %>
@@ -26,6 +29,10 @@
 				</ul>
 			</div>
 		<% end %>
+	</div>
+
+	<div class="madeby">
+		<p>Fait avec ❤️ depuis la Silicon Valley Poissonnière</p>
 	</div>
 
 </div>
