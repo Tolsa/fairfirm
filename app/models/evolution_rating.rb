@@ -1,0 +1,2 @@
+class EvolutionRating < ApplicationRecord
+end

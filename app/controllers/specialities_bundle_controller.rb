@@ -1,0 +1,2 @@
+class SpecialitiesBundleController < ApplicationController
+end

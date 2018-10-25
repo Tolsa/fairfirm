@@ -1,0 +1,2 @@
+class MissionRating < ApplicationRecord
+end

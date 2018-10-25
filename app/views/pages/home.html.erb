@@ -1,2 +1,38 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="searchBG">
+	<%= render 'shared/navbar' %>
+	<div class="text-titles">
+		<h1>Fairfirm</h1>
+		<p>Partage d'expérience et transparence sur les cabinets d'avocats</p>
+	</div>
+
+	<div class="firms-container">
+		<% Firm.all.each do |firm| %>		
+			<div class="firm-card">
+				<ul>
+					
+					<li class="firm-title"><%= firm.name %></li>
+					<div class="first-group-ul">	
+						<li><i class="fas fa-globe"></i> <%= firm.location %></li>	
+						<li><i class="fas fa-users"></i> <%= firm.employees %></li>
+					</div>
+					<li class="partners-list">
+						<% partners = firm.partners %>
+						<% p_string = partners.to_s.gsub("[","").gsub("]","").gsub('"','') %>
+						<i class="fas fa-crown"></i><%= p_string %>
+
+					</li>
+					<li><i class="fas fa-home"></i> <%= firm.hq %></li>
+					<% if firm.email != ""  %>
+						<li><i class="fas fa-envelope"></i> <%= firm.email %></li>
+					<% end %>
+							
+				</ul>
+			</div>
+		<% end %>
+	</div>
+
+	<div class="madeby">
+		<p>Fait avec ❤️ depuis la Silicon Valley Poissonnière</p>
+	</div>
+
+</div>

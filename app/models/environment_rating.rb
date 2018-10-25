@@ -1,0 +1,2 @@
+class EnvironmentRating < ApplicationRecord
+end

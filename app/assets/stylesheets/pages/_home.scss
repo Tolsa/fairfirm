@@ -1,1 +1,107 @@
 // Specific CSS for your home-page
+.searchBG {
+    background-image: linear-gradient(to bottom right, 
+        rgba(138, 35, 135, 1), 
+        rgba(233, 64, 87, 0.8), 
+        rgba(242, 113, 33, 0.8)), 
+        url(lawfirm1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+
+
+    .text-titles {
+        top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 70px;
+        height: 100%;
+    	p {
+		    color: white;
+		    max-width: 320px;
+		    text-align: center;
+		    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2), -1px -1px 10px rgba(0, 0, 0, 0.3);
+    	}
+    }
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: medium;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 71px;
+    color: white;
+    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2), -1px -1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.firms-container {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff7fe;
+    padding-top: 50px;
+    box-shadow: 0px -2px 18px rgba(0, 0, 0, 0.4);
+    padding-bottom: 50px;
+    .firm-card {
+        background: white;
+        width: 400px;
+        margin: 13px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px 1px rgba(3, 27, 78, 0.06);
+        border: 1px solid #e5e8ed;
+        font-size: 14px;
+
+        i {
+            font-size: 16px;
+            padding-right: 5px;
+            color: #bc487e;
+        }
+
+        .firm-title {
+            font-weight: bold;
+            font-size: 16px;
+            border-bottom: 1px solid #b43252;
+            padding-bottom: 10px;
+            color: #b43252;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            padding: 30px;
+
+            .first-group-ul {
+                display: flex;
+                justify-content: space-between; 
+                padding-top: 10px;  
+            }
+        }
+
+        .partners-list {
+            max-height: 100px;
+            overflow: auto;
+        }
+    }
+}
+
+li {
+    list-style: none;
+}
+
+.madeby {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}

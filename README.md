@@ -1,1 +1,3 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+boot serv : 
+1- (if necessary) rm /usr/local/var/postgres/postmaster.pid
+2- postgres -D /usr/local/var/postgres
